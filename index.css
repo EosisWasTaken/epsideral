@@ -3,16 +3,26 @@
     height: 3em;
 }
 
-@media (max-width: 768px) {
-    #sidebar {
-        border-radius: 10px;
-    }
-  }
+#header {
+    z-index: 100;
+}
 
+.mt-6,
+.my-6 {
+  margin-top: 5.33rem !important;
+}
 
-@media (min-width: 768px) {
-    #sidebar {
-        border-radius: 10px;
-        min-width:  350px;
-    }
-  }
+.mr-6,
+.mx-6 {
+  margin-right: 5.33rem !important;
+}
+
+.mb-6,
+.my-6 {
+  margin-bottom: 5.33rem !important;
+}
+
+.ml-6,
+.mx-6 {
+  margin-left: 5.33rem !important;
+}
