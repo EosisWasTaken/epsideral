@@ -1,2 +1,2 @@
 # workshop-epsi
-Comparateur de prix 
+Le Wiki de l'EPSI
