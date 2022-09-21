@@ -112,26 +112,67 @@
       </nav>
     </div>
     <div class="col-sm-9 p-3"> <!-- mt-6 pour éviter que le texte se retrovue derrière le header vu qu'il est en position : fixed maintenant -->
-      <div data-bs-spy="scroll" data-bs-target="#nav-personnel" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-        <div id="questionun" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              C'est quoi le MyDIL ?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              C'est le labo secret des première années, là où on bosse. C'est que pour eux, les autres ouste !
+            </div>
+          </div>
         </div>
-        <div id="questiondeux" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Que faire si la machine à café est disfonctionnelle ?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              On demande de préférence au brave Eric (et surtout pas à Aïnoa ! ALERTE !)
+            </div>
+          </div>
         </div>
-        <div id="questiontrois" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Les étudiants sont ils aidés pour s'intégrer ?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Une après midi est réservée à l'intégration des étudiants. Elle se fait au début de l'année avec les élèves de SN1 et de SN2
+            </div>
+          </div>
         </div>
-        <div id="questionquatre" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Où les élèves peuvent-ils manger ?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Il y un micro-ondes et un frigo à la bodega. On peut amener à manger ou manger en ville.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+              Où manger en ville ?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Voici une courte liste d'endroits permettant de se remplir la panse non-loin du meilleur campus :
+              Saveurs basilic et Takumi (asian food), Carson Burger, Fourmidable, Fournil de l'artisan de 7 deniers (pâtisserie)... Vous trouverez sûrement quelques lieux supplémentaires en vous baladant !
+            </div>
+          </div>
         </div>
       </div>
     </div>
