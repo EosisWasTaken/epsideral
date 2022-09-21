@@ -59,13 +59,13 @@
         <div class="collapse multi-collapse" id="personnel">
           <ul>
             <li><a class="nav-link" href="personnel.html#melanie-hamon">MELANIE HAMON</a></li>
-            <li><a class="nav-link" href="personnel.html#ainoa-barriere">AÏNOA BARRIERE</a></li>
             <li><a class="nav-link" href="personnel.html#loic-lemonsu">LOIC LEMONSU</a></li>
+            <li><a class="nav-link" href="personnel.html#ainoa-barriere">AÏNOA BARRIERE</a></li>
             <li><a class="nav-link" href="personnel.html#sylvie-ortega">SYLVIE ORTEGA</a></li>
             <li><a class="nav-link" href="personnel.html#morgane-jacob">MORGANE JACOB</a></li>
             <li><a class="nav-link" href="personnel.html#agathe-mazeres">AGATHE MAZERES</a></li>
-            <li><a class="nav-link" href="personnel.html#eric-albert">ERIC ALBERT</a></li>
             <li><a class="nav-link" href="personnel.html#manon-raja">MANON RAJA</a></li>
+            <li><a class="nav-link" href="personnel.html#eric-albert">ERIC ALBERT</a></li>
           </ul>
         </div>
 
@@ -73,10 +73,10 @@
 
         <div class="collapse multi-collapse" id="salles">
           <ul>
-            <li><a href="salles.html#rdc">Rez de chaussée</a></li>
-            <li><a href="salles.html#premier">1er étage</a></li>
-            <li><a href="salles.html#deuxieme">2ème étage</a></li>
-            <li><a href="salles.html#troisemea">3ème étage</a></li>
+            <li><a class="nav-link"  href="salles.html#rdc">Rez de chaussée</a></li>
+            <li><a class="nav-link"  href="salles.html#premier">1er étage</a></li>
+            <li><a class="nav-link"  href="salles.html#deuxieme">2ème étage</a></li>
+            <li><a class="nav-link"  href="salles.html#troisemea">3ème étage</a></li>
           </ul>
         </div>
 
@@ -84,8 +84,8 @@
 
         <div class="collapse multi-collapse" id="site">
           <ul>
-            <li><a href="site.html#learning">360 Learning</a></li>
-            <li><a href="site.html#edusign">Edusign</a></li>
+            <li><a class="nav-link"  href="site.html#learning">360 Learning</a></li>
+            <li><a class="nav-link"  href="site.html#edusign">Edusign</a></li>
           </ul>
         </div>
 
@@ -93,7 +93,7 @@
 
         <div class="collapse multi-collapse" id="bde">
           <ul>
-            <li><a href="bde.html#bde">BDE</a></li>
+            <li><a class="nav-link"  href="bde.html#bde">Présentation</a></li>
           </ul>
         </div>
 
@@ -101,46 +101,78 @@
 
         <div class="collapse multi-collapse" id="lexique">
           <ul>
-            <li><a href="lexique.html#langages">Langages de programmation</a></li>
-            <li><a href="lexique.html#logiciels">Logiciels</a></li>
+            <li><a class="nav-link"  href="lexique.html#langages">Langages de programmation</a></li>
+            <li><a class="nav-link"  href="lexique.html#logiciels">Logiciels</a></li>
           </ul>
         </div>
 
-        <button class="btn d-block p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#faq" aria-expanded="false" aria-controls="multiCollapseExample2">F.A.Q &#8964;</button>
-
-        <div class="collapse multi-collapse" id="faq">
-          <ul>
-            <li><a href="faq.html#questionun">Une première question</a></li>
-            <li><a href="faq.html#questiondeux">Une duexième question</a></li>
-            <li><a href="faq.html#questiontrois">Une troisème question</a></li>
-            <li><a href="faq.html#questionquatre">Une quatrième question</a></li>
-          </ul>
-        </div>
+        <a class="nav-link" type="button" href="faq.html">FAQ</a>
 
 
       </nav>
     </div>
-    <div class="col-sm-9 p-3 content"> 
-      <div data-bs-spy="scroll" data-bs-target="#nav-personnel" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-        <div id="questionun" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;">...</p>
+    <div class="col-sm-9 p-3"> <!-- mt-6 pour éviter que le texte se retrovue derrière le header vu qu'il est en position : fixed maintenant -->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              C'est quoi le MyDIL ?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              C'est le labo secret des première années, là où on bosse. C'est que pour eux, les autres ouste !
+            </div>
+          </div>
         </div>
-        <div id="questiondeux" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Que faire si la machine à café est disfonctionnelle ?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              On demande de préférence au brave Eric (et surtout pas à Aïnoa ! ALERTE !)
+            </div>
+          </div>
         </div>
-        <div id="questiontrois" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Les étudiants sont ils aidés pour s'intégrer ?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Une après midi est réservée à l'intégration des étudiants. Elle se fait au début de l'année avec les élèves de SN1 et de SN2
+            </div>
+          </div>
         </div>
-        <div id="questionquatre" class="mt-6">
-          <h4 style="font-family:'Montserrat SemiBold';"><b> Q:</b></h4>
-          <br><p style="font-family:Montserrat;"> R:</p>
-          <p style="font-family:Montserrat;margin:25% 0 1% 1%">...</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Où les élèves peuvent-ils manger ?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Il y un micro-ondes et un frigo à la bodega. On peut amener à manger ou manger en ville.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+              Où manger en ville ?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Voici une courte liste d'endroits permettant de se remplir la panse non-loin du meilleur campus :
+              Saveurs basilic et Takumi (asian food), Carson Burger, Fourmidable, Fournil de l'artisan de 7 deniers (pâtisserie)... Vous trouverez sûrement quelques lieux supplémentaires en vous baladant !
+            </div>
+          </div>
         </div>
       </div>
     </div>
