@@ -55,19 +55,7 @@
   <div class="row align-items-start">
     <div class="col-3 bg-light p-0 border">
       <nav id="nav-personnel" class="p-4 mt-6 sidenav position-fixed h-100 w-25 overflow-hidden bg-warning">
-        <button class="btn d-block p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#personnel" aria-expanded="false" aria-controls="multiCollapseExample2">Personnel &#8964;</button>
-        <div class="collapse multi-collapse" id="personnel">
-          <ul>
-            <li><a class="nav-link" href="personnel.html#melanie-hamon">MELANIE HAMON</a></li>
-            <li><a class="nav-link" href="personnel.html#loic-lemonsu">LOIC LEMONSU</a></li>
-            <li><a class="nav-link" href="personnel.html#ainoa-barriere">AÏNOA BARRIERE</a></li>
-            <li><a class="nav-link" href="personnel.html#sylvie-ortega">SYLVIE ORTEGA</a></li>
-            <li><a class="nav-link" href="personnel.html#morgane-jacob">MORGANE JACOB</a></li>
-            <li><a class="nav-link" href="personnel.html#agathe-mazeres">AGATHE MAZERES</a></li>
-            <li><a class="nav-link" href="personnel.html#manon-raja">MANON RAJA</a></li>
-            <li><a class="nav-link" href="personnel.html#eric-albert">ERIC ALBERT</a></li>
-          </ul>
-        </div>
+        <a class="nav-link" type="button" href="personnel.html">Personnel</a>
 
         <button class="btn d-block p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#salles" aria-expanded="false" aria-controls="multiCollapseExample2">Salles &#8964;</button>
 
@@ -111,39 +99,18 @@
 
       </nav>
     </div>
-    <div class="col-sm-9 p-3 content text">
-      <div data-bs-spy="scroll" data-bs-target="#nav-personnel" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-        <div id="melanie-hamon">
-          <h4>Melanie Hamon</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="ainoa-barriere">
-          <h4>Aïnoa Barriere</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="loic-lemonsu">
-          <h4>Loic Lemonsu</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="sylvie-ortega">
-          <h4>Sylvie Ortega</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="morgane-jacob">
-          <h4>Morgane Jacob</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="agathe-mazeres">
-          <h4>Agathe Mazeres</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="eric-albert" >
-          <h4>Eric Albert</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div id="manon-raja">
-          <h4>Manon Raja</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
+    <div class="col-sm-9 p-3 content">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            First in DOM, no order applied
+          </div>
+          <div class="col order-5">
+            Second in DOM, with a larger order
+          </div>
+          <div class="col order-1">
+            Third in DOM, with an order of 1
+          </div>
         </div>
       </div>
     </div>
