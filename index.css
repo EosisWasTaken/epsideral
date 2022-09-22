@@ -47,6 +47,9 @@
   margin-top:70px;  
 }
 
-.ptdr {
-  margin-top: 11rem !important;
+.sidebar a:hover {
+  background-color: #d3d3d3 !important;
+}
+.sidebar button:hover {
+  background-color: #d3d3d3 !important;
 }
