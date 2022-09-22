@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-  <nav class="position-fixed w-100 navbar navbar-expand-sm bg-light" id="header" style="background-color: #FACF53;">
+  <nav class="position-fixed w-100 navbar navbar-expand-sm" id="header" style="background-color: #FACF53; border-radius: 0 0 10px 10px;">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img id="epsi-logo" class="img-fluid" src="EPSI_ICOTYPE_RVB.png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +57,9 @@
 <div class="container-fluid">
   <div class="row align-items-start"  >
     <div class="col-3 bg-light p-0 border">
-      <nav id="nav-personnel" class="p-4 mt-6 sidenav position-fixed h-100 w-25 overflow-hidden bg-warning">
-        <a class="nav-link" type="button" href="personnel.html">Personnel</a>
+      <nav id="nav-personnel" class="p-4 mt-6 sidenav sidebar position-fixed h-100 w-25 overflow-hidden" style="border-radius: 10px 10px 10px 10px; box-shadow: 3px 3px 8px grey;">
+
+        <button class="btn d-block p-0 m-0" type="button"><a class="nav-link" href="personnel.html">Personnel</a></button>
 
         <button class="btn d-block p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#salles" aria-expanded="false" aria-controls="multiCollapseExample2">Salles &#8964;</button>
 
@@ -97,8 +98,8 @@
           </ul>
         </div>
 
-        <a class="nav-link" type="button" href="faq.html">FAQ</a>
-
+        <button class="btn d-block p-0 m-0" type="button"><a class="nav-link" href="faq.html">F.A.Q</a></button>
+        
 
       </nav>
     </div>
