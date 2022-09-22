@@ -100,23 +100,89 @@
       </nav>
     </div>
     <div class="col-sm-9 p-3 content text"> <!-- mt-6 pour éviter que le texte se retrovue derrière le header vu qu'il est en position:fixed maintenant -->
-      <div data-bs-spy="scroll" data-bs-target="#nav-personnel" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-        <div>
-          <h4 id="rdc">Rez de chaussée</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
         </div>
-        <div>
-          <h4 id="premier">1er étage</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center>
+              <img src="exterieur.jpg" class="d-block img-center w-75" alt="Extérieur">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <center>
+              <img src="the_bodega.jpg" class="d-block img-center w-75" alt="La bogega">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img src="rdc.jpg" class="d-block img-center w-75" alt="Accueil">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img src="rdc_1.jpg" class="d-block img-center w-75" alt="plan de toutes les salles">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img src="sandbox.jpg" class="d-block img-center w-75" alt="Bac à sable">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img src="my_dil.jpg" class="d-block img-center w-75" alt="My dil">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <center>
+              <img src="my_dil1.jpg" class="d-block img-center w-75" alt="My dil_1">
+            </center>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <h4 id="deuxieme">2ème étage</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
-        <div>
-          <h4 id="troisemea">3ème étage</h4>
-          <p style="margin:75% 0 1% 1%">...</p>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>
